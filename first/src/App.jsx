@@ -1,22 +1,36 @@
 
-import './App.css'
 
+import Counter from './Counter'
+import X from  './Navbar'  // component function
+import './App.css'
+import ConditionalRendering from './ConditionalRendering'
 function App() {
 
-  // declare any variable here
-  let x = "hello"
+  let obj = {
+    color : "white",
+    backgroundColor:"black",
+    padding:"10px"
+  }
 
-  let a = 10;
-  let b = 5;
 
   return (
-    <div>
-     <h1>THis is welcome page</h1>
-     <p> {x} </p>
-     <p>hello 1</p>
+    <div className=''>
+      {/* <h1>This is App</h1>
+      <h6 style={{color:'white',backgroundColor:"green"}}>this is heading tag</h6>
+      <X/>
 
-      <p>SUm =  {a+b}</p>
-
+      <div style={obj}>
+          <h1>This is Box</h1>
+          <ul>
+            <li>one</li>
+            <li>Two</li>
+            <li>Three</li>
+          </ul>
+      </div> */}
+      
+        <ConditionalRendering/>
+       
+      {/* <Counter/> */}
     
     </div>
   )
