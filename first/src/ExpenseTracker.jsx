@@ -7,7 +7,7 @@ const ExpenseTracker = () => {
         {id:2, expenseName:"dinner", creditedAmount:0, debitedAmount:300,date:'13-10-25'},
         {id:3, expenseName:"zoo", creditedAmount:0, debitedAmount:450,date:'14-10-25'},
         {id:4, expenseName:"club", creditedAmount:0, debitedAmount:1500,date:'15-10-25'},
-    ]);
+    ])
 
     
 
