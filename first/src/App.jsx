@@ -4,6 +4,7 @@ import Counter from './Counter'
 import X from  './Navbar'  // component function
 import './App.css'
 import ConditionalRendering from './ConditionalRendering'
+import ExpenseTracker from './ExpenseTracker'
 function App() {
 
   let obj = {
@@ -28,7 +29,9 @@ function App() {
           </ul>
       </div> */}
       
-        <ConditionalRendering/>
+        {/* <ConditionalRendering/> */}
+
+        <ExpenseTracker/>
        
       {/* <Counter/> */}
     

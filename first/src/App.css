@@ -5,3 +5,14 @@
 .appPage{
     background-color: red;
 }
+
+.tableExpense{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.tableExpense tr, .tableExpense td{
+    padding: 15px;
+}
